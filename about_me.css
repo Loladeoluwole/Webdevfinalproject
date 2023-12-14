@@ -1,0 +1,79 @@
+body {
+    background-color: #F05900; /* Main shade of orange */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    color: white;
+    background-color: #FFA81C; /* Lighter shade of orange for header background */
+    padding: 20px;
+    position: relative;
+}
+
+.profile-pic {
+    border-radius: 50%; /* Creates a circular profile picture effect */
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 100px; /* Adjust the width as needed */
+}
+
+header h1 {
+    display: inline-block;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.certificates img {
+    width: 350px;
+    margin: 10px;
+    border: 2px solid #FF4500; /* Darker shade of orange for borders */
+    border-radius: 10px;
+}
+
+.certificates img:nth-child(3n+1) {
+    clear: left;
+}
+
+.project {
+    margin: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+.project img {
+    width: 200px;
+    border: 2px solid #FF4500;
+    border-radius: 10px;
+}
+
+.project p {
+    margin-top: 10px;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    color: #FF4500;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #FFA81C; /* Lighter shade of orange for footer background */
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
